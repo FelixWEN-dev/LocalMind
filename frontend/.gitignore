@@ -47,10 +47,9 @@ __screenshots__/
 .DS_Store
 
 # =====================
-# IDE
+# IDE / Editor config
 # =====================
-.vscode/*
-!.vscode/extensions.json
+.vscode/
 
 .idea/
 *.suo
@@ -58,3 +57,12 @@ __screenshots__/
 *.njsproj
 *.sln
 *.sw?
+
+# =====================
+# Personal config files
+# =====================
+.editorconfig
+.prettierrc.json
+.prettierrc
+.eslintcache
+.stylelintrc*
